@@ -1,0 +1,78 @@
+@media (min-width:768px) {
+
+    .header .header-flex .theme .btn {
+        width: 160px;
+        height: 40px;
+    }
+
+    .header .header-flex .nav {
+        display: block;
+    }
+
+    .header .header-flex .nav ul .home::after {
+        top: 42px;
+        left: -2px;
+    }
+
+    .header .header-flex .nav .about::after {
+        top: 42px;
+        left: 0px;
+    }
+
+    .header .header-flex .nav .ser::after {
+        top: 42px;
+        left: 0px;
+    }
+
+    .header .header-flex .nav .pages::after {
+        top: 42px;
+        left: 0px;
+    }
+
+    .header .header-flex .nav .contact::after {
+        top: 42px;
+        left: 0px;
+    }
+    .header .header-flex .theme .btn {
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .header .header-flex .theme .bars {
+        display: none;
+    }
+
+    /* ---------about us---------- */
+    .about-us .about-us-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 750px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    /* ----who we are----- */
+    .who-we-are .who-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: auto;
+        max-width: 100%;
+    }
+
+    /* --why Us----- */
+    .whyUs .whyUs-flex{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+     /* footer.... */
+     footer .bottom-body-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
